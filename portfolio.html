@@ -51,6 +51,7 @@
             border: 1px rgba(90, 90, 90, 0.144) solid;
             border-radius: 5px;
             width: 60%;
+            overflow: hidden;
             background-color: #fff;
             height: auto;
             margin-top: 10%;
@@ -60,12 +61,25 @@
         }
         .box-content{
             background-color: #fff;
+            position: relative;
         }
         h3 , p{
             background-color: #fff;
         }
         .title{
             margin-bottom: 3%;
+        }
+        .gallery{
+            width: 20%;
+            float: left;
+            transition: all .3s ease-in-out;
+            border-radius: 5px;
+            margin: 4%;
+            position: relative;
+        }
+        .gallery:hover{
+           width: 22%;
+
         }
     </style>
 </head>
@@ -85,6 +99,23 @@
                     </div>
                 </div>
            </div>
+           <!--add gallary-->
+           <div class="content">
+            <div class="box">
+                <div class="title">
+                    <h3>Gallary</h3>
+                </div>
+                <div class="box-content">
+                    <img class="gallery" src="https://z-m-scontent.fceb1-3.fna.fbcdn.net/v/t1.6435-9/cp0/e15/q65/p320x320/229584277_1394788024210467_847904058863908333_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=85a577&efg=eyJpIjoibyJ9&_nc_eui2=AeFZxefCu51sH5pzUFVSB41Tn99efGxTiWqf3158bFOJavkTmd-a3QL8P0XC1m3klQ_TxjFy_DnGygBStO1oFUoq&_nc_ohc=eRnCPejN98IAX9ErhPw&_nc_ad=z-m&_nc_cid=1119&_nc_eh=09060ba0f77a99f737ba7747a7cb0dbd&_nc_rml=0&_nc_ht=z-m-scontent.fceb1-3.fna&oh=76cd4053f4a34f927b285dc3efd6d146&oe=619F217F" alt="">
+                    <img class="gallery" src="https://z-m-scontent.fceb1-3.fna.fbcdn.net/v/t1.6435-9/cp0/e15/q65/p320x320/229584277_1394788024210467_847904058863908333_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=85a577&efg=eyJpIjoibyJ9&_nc_eui2=AeFZxefCu51sH5pzUFVSB41Tn99efGxTiWqf3158bFOJavkTmd-a3QL8P0XC1m3klQ_TxjFy_DnGygBStO1oFUoq&_nc_ohc=eRnCPejN98IAX9ErhPw&_nc_ad=z-m&_nc_cid=1119&_nc_eh=09060ba0f77a99f737ba7747a7cb0dbd&_nc_rml=0&_nc_ht=z-m-scontent.fceb1-3.fna&oh=76cd4053f4a34f927b285dc3efd6d146&oe=619F217F" alt="">
+                    <img class="gallery" src="https://z-m-scontent.fceb1-3.fna.fbcdn.net/v/t1.6435-9/cp0/e15/q65/p320x320/229584277_1394788024210467_847904058863908333_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=85a577&efg=eyJpIjoibyJ9&_nc_eui2=AeFZxefCu51sH5pzUFVSB41Tn99efGxTiWqf3158bFOJavkTmd-a3QL8P0XC1m3klQ_TxjFy_DnGygBStO1oFUoq&_nc_ohc=eRnCPejN98IAX9ErhPw&_nc_ad=z-m&_nc_cid=1119&_nc_eh=09060ba0f77a99f737ba7747a7cb0dbd&_nc_rml=0&_nc_ht=z-m-scontent.fceb1-3.fna&oh=76cd4053f4a34f927b285dc3efd6d146&oe=619F217F" alt="">
+                    <img class="gallery" src="https://z-m-scontent.fceb1-3.fna.fbcdn.net/v/t1.6435-9/cp0/e15/q65/p320x320/229584277_1394788024210467_847904058863908333_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=85a577&efg=eyJpIjoibyJ9&_nc_eui2=AeFZxefCu51sH5pzUFVSB41Tn99efGxTiWqf3158bFOJavkTmd-a3QL8P0XC1m3klQ_TxjFy_DnGygBStO1oFUoq&_nc_ohc=eRnCPejN98IAX9ErhPw&_nc_ad=z-m&_nc_cid=1119&_nc_eh=09060ba0f77a99f737ba7747a7cb0dbd&_nc_rml=0&_nc_ht=z-m-scontent.fceb1-3.fna&oh=76cd4053f4a34f927b285dc3efd6d146&oe=619F217F" alt="">
+                    <img class="gallery" src="https://z-m-scontent.fceb1-3.fna.fbcdn.net/v/t1.6435-9/cp0/e15/q65/p320x320/229584277_1394788024210467_847904058863908333_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=85a577&efg=eyJpIjoibyJ9&_nc_eui2=AeFZxefCu51sH5pzUFVSB41Tn99efGxTiWqf3158bFOJavkTmd-a3QL8P0XC1m3klQ_TxjFy_DnGygBStO1oFUoq&_nc_ohc=eRnCPejN98IAX9ErhPw&_nc_ad=z-m&_nc_cid=1119&_nc_eh=09060ba0f77a99f737ba7747a7cb0dbd&_nc_rml=0&_nc_ht=z-m-scontent.fceb1-3.fna&oh=76cd4053f4a34f927b285dc3efd6d146&oe=619F217F" alt="">
+                    <img class="gallery" src="https://z-m-scontent.fceb1-3.fna.fbcdn.net/v/t1.6435-9/cp0/e15/q65/p320x320/229584277_1394788024210467_847904058863908333_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=85a577&efg=eyJpIjoibyJ9&_nc_eui2=AeFZxefCu51sH5pzUFVSB41Tn99efGxTiWqf3158bFOJavkTmd-a3QL8P0XC1m3klQ_TxjFy_DnGygBStO1oFUoq&_nc_ohc=eRnCPejN98IAX9ErhPw&_nc_ad=z-m&_nc_cid=1119&_nc_eh=09060ba0f77a99f737ba7747a7cb0dbd&_nc_rml=0&_nc_ht=z-m-scontent.fceb1-3.fna&oh=76cd4053f4a34f927b285dc3efd6d146&oe=619F217F" alt="">
+                </div>
+            </div>
+       </div>
+
        </div>
 </body>
 </html>
